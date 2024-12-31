@@ -1,6 +1,6 @@
 if game.GameId == 142823291 or game.GameId == 335132309 or game.GameId == 636649648 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/MM2"))()
-elseif game.GameId == 8737899170 or game.GameId == 15502339080 or game.GameId == 15588442388 or game.GamesId == 17503543197 or game.GamesId == 16498369169 then
+elseif game.GameId == 8737899170 or game.GameId == 15502339080 or game.GameId == 15588442388 or game.GamesId == 17503543197 or game.GameId == 16498369169 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/PS99"))()
 elseif game.GameId == 18901165922 or game.GameId == 19006211286 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/PETSGO"))()
