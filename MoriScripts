@@ -1,19 +1,7 @@
-repeat
-    task.wait()
-until game.GameId ~= nil
-repeat
-    task.wait()
-until game:IsLoaded()
-
-if getgenv().loaded then
-    return
-end
-getgenv().loaded = true
-
-universeid = game.GameId
-
---ps99
-
-if universeid == 3317771874 then
+if game.PlaceID == 142823291 or game.PlaceID == 335132309 or game.PlaceID == 636649648 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/MM2"))()
+elseif game.PlaceID == 8737899170 or game.PlaceID == 15502339080 or game.PlaceID == 15588442388 or game.PlaceID == 17503543197 or game.PlaceID == 16498369169 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/PS99"))()
+elseif game.PlaceID == 18901165922 or game.PlaceID == 19006211286 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/PETSGO"))()
 end
