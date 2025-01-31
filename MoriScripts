@@ -1,7 +1,7 @@
-if game.PlaceID == 142823291 or game.PlaceID == 335132309 or game.PlaceID == 636649648 then
+if game.PlaceId == 142823291 or game.PlaceId == 335132309 or game.PlaceId == 636649648 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/MM2"))()
-elseif game.PlaceID == 8737899170 or game.PlaceID == 15502339080 or game.PlaceID == 15588442388 or game.PlaceID == 17503543197 or game.PlaceID == 16498369169 then
+elseif game.PlaceId == 8737899170 or game.PlaceId == 15502339080 or game.PlaceId == 15588442388 or game.PlaceId == 17503543197 or game.PlaceId == 16498369169 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/PS99"))()
-elseif game.PlaceID == 18901165922 or game.PlaceID == 19006211286 then
+elseif game.PlaceId == 18901165922 or game.PlaceId == 19006211286 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/MoriScripts/main/PETSGO"))()
 end
